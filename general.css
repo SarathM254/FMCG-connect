@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+.rest {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.verti {
+    display: grid;
+    grid-template-rows: 70px 1fr;  
+} 
