@@ -9,7 +9,4 @@
     grid-template-columns: 100px 1fr;
 }
 
-.verti {
-    display: grid;
-    grid-template-rows: 70px 1fr;  
-} 
+
