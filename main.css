@@ -7,37 +7,50 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: black;
+    background-color: rgb(255, 247, 247);
     height: 100%;
-    row-gap: 15px;
     column-gap: 15px;
     padding: 15px;
+    padding-left: 19px;
+    padding-right: 5px;
     position: relative;
     z-index: -2;
 }
 .main-in{
     height: 289.2px;
     width: 687.9px;
-    border: 2px solid #ffd700;
-    border-radius: 10px;
-    color: red;
     padding: 10px;
     background-color: transparent;
     display: grid;
     grid-template-rows: 50px 1fr 45px;
 }
+.end{
+    color: #065680;
+}
+.mid{
+    color: #04987e;
+}
+.ends{
+    border: 3px solid #065680;
+    border-radius: 10px;
+}
+.mids{
+    border: 3px solid #04987e;
+    border-radius: 10px;
+}
 .portal-name{
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 10px;
     padding-left: 10px;
 }
 .portal-content-2{
-    font-family: "Roboto Slab", serif;
+    font-family:"Josefin Sans", sans-serif;
     padding-left: 40px;
     padding-top: 5px;
-    color: #ffd700;
+    color: #000000;
+    font-size: 18px;
 }
 .portal-way{
     height: 100%;
@@ -54,21 +67,21 @@
     bottom: 0;
 }
 .sub_heads{
-    color: red;
+    color: rgb(0, 0, 0);
     display: inline;
 }
 li{
     margin-bottom: 3px;
 }
 li::marker{
-    color: red;
+    color: rgb(0, 0, 0);
 }
 .coming-soon{
     color: gray;
     padding-left: 40px;
     padding-top: 15px;
-    font-family: "Roboto Slab", serif;
-    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
 }
 .footer{
     height: 100px;
@@ -78,9 +91,8 @@ li::marker{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     z-index: -1;
-    font-family: "Roboto Slab", serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     font-weight: 500;
     font-style: italic;
@@ -92,25 +104,30 @@ li::marker{
     margin-right: 30px;
 }
 .photo{
-    border: 2px solid #ffd700;
+    border: 2px solid #065680;
     border-radius: 20%;
+    margin-top: 0px;
 }
 .details{
-    color: #ffd700;
-    padding-right: 20px;
+    color: #000000;
     padding-top: 10px;
-    font-size: 30px;
-    text-align: right;
+    padding-left: 25px;
+    font-size: 23px;
+    font-family: "Josefin Sans", sans-serif;
 }
 .Awards{
-    color: red;
+    color: #065680;
     display: inline;
+    font-weight: 600;
 }
 .name{
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+}
+.photo{
+    height: 170px;
+    width: 160px;
 }
 .photo img{
-    object-fit: contain;
     border-radius: 20%;
     justify-content: center;
     width: 100%;
