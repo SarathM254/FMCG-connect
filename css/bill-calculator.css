@@ -1,0 +1,164 @@
+/* Bill Calculator Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f5f5f5;
+    padding-top: 74px; /* Account for fixed header */
+}
+
+.bill-main {
+    padding: 20px;
+    min-height: calc(100vh - 74px);
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.table-section {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.table-title {
+    color: #065680;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.bill-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid rgb(144, 143, 143);
+    border-radius: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.bill-table th {
+    background-color: #065680;
+    color: white;
+    padding: 12px 8px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bill-table th:first-child {
+    border-top-left-radius: 6px;
+}
+
+.bill-table th:last-child {
+    border-top-right-radius: 6px;
+}
+
+.bill-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+.bill-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+.bill-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.bill-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.bill-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.bill-table tbody tr:nth-child(even):hover {
+    background-color: #f0f0f0;
+}
+
+.quantity-input {
+    width: 80px;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.quantity-input:focus {
+    outline: none;
+    border-color: #065680;
+    box-shadow: 0 0 0 2px rgba(6, 86, 128, 0.2);
+}
+
+/* Total Card Styles */
+.total-card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+.total-card h3 {
+    color: #065680;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.total-amount {
+    font-size: 32px;
+    font-weight: 900;
+    color: #065680;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border: 2px solid #e0e0e0;
+}
+
+.calculate-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #065680;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calculate-btn:hover {
+    background-color: #054a6b;
+}
+
+.calculate-btn:active {
+    transform: translateY(1px);
+}
+

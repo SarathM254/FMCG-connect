@@ -1,0 +1,58 @@
+/*divide header into 3 parts of flexbox*/
+
+.header{    
+    background-color: #065680;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 74px;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+.left-section img{
+    cursor: pointer;
+}
+
+/*both right and left sections are similar so copy the styles*/
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    padding-right: 20px;
+}
+
+
+
+.middle-section{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.large-head{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+}
+.small-head{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}

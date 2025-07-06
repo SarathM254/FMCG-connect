@@ -1,0 +1,39 @@
+/* Layout and sticky header styling for staff portal */
+body {
+    margin: 0;
+    padding-top: 40px;
+    background: #f7fafc;
+    font-family: "Josefin Sans", sans-serif;
+    min-width: 1200px; /* Prevents shrinking below desktop size */
+}
+
+.staff-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.tables-section {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 1200px; /* Prevents shrinking below desktop size */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Remove responsive styles for desktop-only site */
+@media (max-width: 900px) {
+    .styled-table {
+        width: 80%;
+    }
+    .tables-section {
+        max-width: 1200px;
+        min-width: 1200px;
+    }
+}
+

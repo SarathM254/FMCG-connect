@@ -1,0 +1,45 @@
+/* Table styling for staff portal */
+.styled-table {
+    width: 80%;
+    margin: 30px auto 50px auto;
+    border-collapse: collapse;
+    font-family: "Josefin Sans", sans-serif;
+    background: #fff;
+    /* Enhanced shadow for visual depth */
+    box-shadow: 0 6px 24px 0 rgba(6,86,128,0.18), 0 1.5px 6px 0 rgba(4,152,126,0.10);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.styled-table th, .styled-table td {
+    padding: 14px 18px;
+    text-align: center;
+}
+
+.styled-table thead {
+    background: #065680; /* Main header color */
+    color: #fff;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #04987e;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background: #e6f7f4; /* Subtle alternate row color */
+}
+
+.styled-table tbody tr:hover {
+    background: #04987e;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+.table-title {
+    text-align: center;
+    color: #065680;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+} 
