@@ -121,7 +121,7 @@ body {
 }
 
 .total-card h3 {
-    color: #065680;
+    color: #04987e;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -132,11 +132,11 @@ body {
 .total-amount {
     font-size: 32px;
     font-weight: 900;
-    color: #065680;
+    color: #04987e;
     text-align: center;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f8f9fa;
+    background-color: #f8faf8;
     border-radius: 6px;
     border: 2px solid #e0e0e0;
 }
@@ -144,7 +144,7 @@ body {
 .calculate-btn {
     width: 100%;
     padding: 12px;
-    background-color: #065680;
+    background-color: #04987e;
     color: white;
     border: none;
     border-radius: 6px;
@@ -155,7 +155,7 @@ body {
 }
 
 .calculate-btn:hover {
-    background-color: #054a6b;
+    background-color: #156e5e;
 }
 
 .calculate-btn:active {
